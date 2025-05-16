@@ -1,8 +1,9 @@
 {
-  "name": "faceit-elo-vercel",
-  "version": "1.0.0",
-  "dependencies": {
-    "node-fetch": "^3.3.2"
-  },
-  "type": "module"
+  "version": 2,
+  "builds": [
+    { "src": "index.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/", "dest": "/index.js" }
+  ]
 }
