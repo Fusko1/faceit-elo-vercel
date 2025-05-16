@@ -1,7 +1,7 @@
 {
   "name": "faceit-elo-vercel",
   "version": "1.0.0",
-  "type": "module",
+ "type": "commonjs"
   "dependencies": {
     "node-fetch": "^3.3.2"
   }
